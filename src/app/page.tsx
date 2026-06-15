@@ -67,16 +67,7 @@ export default function Home() {
 
       {/* Blog and GitHub buttons - Right side */}
       <div className="absolute top-4 right-2 z-20 flex items-center gap-1 sm:top-6 sm:right-8 sm:gap-2">
-        {/* Blog Button */}
-        <a
-          href={APP_CONFIG.author.medium}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cursor-pointer relative overflow-hidden will-change-transform backface-visibility-hidden transform-gpu transition-transform duration-200 ease-out hover:scale-105 group whitespace-nowrap focus-visible:outline-hidden inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background disabled:pointer-events-none disabled:opacity-60 bg-zinc-950 hover:bg-zinc-900 text-white border-gray-700 dark:bg-zinc-50 dark:border-gray-300 dark:text-zinc-950 dark:hover:bg-zinc-50 h-7 rounded-md px-2.5 gap-1.5 text-xs leading-none"
-        >
-          <SiMedium className="h-3.5 w-3.5" />
-          <span>Blog</span>
-        </a>
+      
         
         <GithubButton
           animationDuration={ANIMATION_CONFIG.durations.chevron}
