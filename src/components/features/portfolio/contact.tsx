@@ -3,7 +3,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronRight, Mail } from 'lucide-react';
-import { SiLinkedin, SiGithub, SiDiscord, SiMedium } from 'react-icons/si';
+import { SiGithub, SiDiscord, SiMedium } from 'react-icons/si';
+import { FaLinkedin } from 'react-icons/fa';
 
 export function Contact() {
   // Contact information
@@ -15,7 +16,7 @@ export function Contact() {
       {
         name: 'LinkedIn',
         url: 'https://www.linkedin.com/in/thao-hoang-ho/',
-        icon: SiLinkedin,
+        icon: FaLinkedin,
         color: '#0A66C2',
       },
       {
