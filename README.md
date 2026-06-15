@@ -1,4 +1,4 @@
-# Sai Krishna Chaitanya Chigili - AI Portfolio 🤖✨
+# Thao Ho - AI Portfolio 🤖✨
 
 **Interactive Data Engineering Portfolio**
 
@@ -6,7 +6,7 @@ Welcome to my AI-powered portfolio! Instead of traditional static pages, this po
 
 ## 🎯 About This Portfolio
 
-This is an interactive portfolio for **Sai Krishna Chaitanya Chigili**, a Data Engineer with 8+ years of experience in the gaming industry. The portfolio features:
+This is an interactive portfolio for **Thao Ho**, a Data Engineer with 8+ years of experience in the gaming industry. The portfolio features:
 
 - **AI-powered chat interface** that answers questions about my background
 - **Dynamic content rendering** based on user inquiries
@@ -135,10 +135,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-- **Email**: kc.chigili@gmail.com
-- **LinkedIn**: [saikrishnachaitanyachigili](https://linkedin.com/in/saikrishnachaitanyachigili)
+- **Email**: thaohohoang.work@gmail.com
+- **LinkedIn**: [thaohh69](https://linkedin.com/in/thaohh69)
 - **GitHub**: [Your GitHub Profile]
-- **Medium**: [@kc.chigili](https://medium.com/@kc.chigili)
+- **Medium**: [@thaoho](https://medium.com/@thaoho)
 
 ---
 
