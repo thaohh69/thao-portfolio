@@ -434,24 +434,14 @@ const Chat = () => {
 
   return (
     <div className="relative h-screen overflow-hidden">
-      <div className="absolute top-6 right-8 z-51 flex flex-col-reverse items-center justify-center gap-2 md:flex-row">
-        {/* Blog Button */}
-        <a
-          href="https://medium.com/@kc.chigili"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cursor-pointer relative overflow-hidden will-change-transform backface-visibility-hidden transform-gpu transition-transform duration-200 ease-out hover:scale-105 group whitespace-nowrap focus-visible:outline-hidden inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background disabled:pointer-events-none disabled:opacity-60 bg-zinc-950 hover:bg-zinc-900 text-white border-gray-700 dark:bg-zinc-50 dark:border-gray-300 dark:text-zinc-950 dark:hover:bg-zinc-50 h-7 rounded-md px-2.5 gap-1.5 text-xs leading-none"
-        >
-          <SiMedium className="h-3.5 w-3.5" />
-          <span>Blog</span>
-        </a>
         
+      <div className="absolute top-6 right-8 z-51 flex flex-col-reverse items-center justify-center gap-2 md:flex-row">
         <div className="">
           <GithubButton
             animationDuration={1.5}
             label="Star"
             size={'sm'}
-            repoUrl="https://github.com/YOUR_USERNAME/ai-portfolio"
+            repoUrl="https://github.com/thaohh69/thao-portfolio"
           />
         </div>
       </div>

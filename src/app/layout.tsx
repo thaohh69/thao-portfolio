@@ -23,7 +23,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "chigili portfolio",
+  title: "Thao Ho Portfolio",
   description: "Interactive portfolio with an AI-powered assistant that answers questions about me, my skills, and my experience",
   keywords: [
     "thaoho", 
@@ -40,22 +40,22 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Sai Krishna Chaitanya Chigili",
-      url: "https://linkedin.com/in/saikrishnachaitanyachigili",
+      name: "Thao Ho",
+      url: "https://www.linkedin.com/in/thaohohoang",
     },
   ],
-  creator: "chigili",
+  creator: "Thao Ho",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://your-domain.com",
-    title: "thaoho portfolio",
+    title: "Thao Ho Portfolio",
     description: "Interactive portfolio with an AI-powered assistant that answers questions about me",
-    siteName: "thaoho portfolio",
+    siteName: "Thao Ho Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "thaoho portfolio",
+    title: "Thao Ho Portfolio",
     description: "Interactive portfolio with an AI-powered assistant that answers questions about me",
     creator: "@thaoho",
   },

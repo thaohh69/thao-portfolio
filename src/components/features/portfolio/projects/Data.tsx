@@ -397,11 +397,11 @@ const PERSONAL_PROJECT_CONTENT = [
     links: [
       {
         name: 'GitHub Repository',
-        url: 'https://github.com/chigili/realtime-ecommerce-analytics',
+        url: 'https://github.com/thaohh69/thao-portfolio',
       },
       {
         name: 'Architecture Diagram',
-        url: 'https://github.com/chigili/realtime-ecommerce-analytics/blob/main/docs/architecture.md',
+        url: 'https://github.com/thaohh69/thao-portfolio/blob/main/docs/architecture.md',
       },
     ],
     keyFeatures: [

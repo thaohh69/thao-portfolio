@@ -75,7 +75,7 @@ export function ChatErrorFallback({ error, onRetry }: ChatErrorFallbackProps) {
               <Button
                 variant="outline"
                 size="sm"
-                onClick={() => window.open('https://www.linkedin.com/in/sai-chigili/', '_blank')}
+                onClick={() => window.open('https://www.linkedin.com/in/thaohohoang/', '_blank')}
                 className="w-full"
               >
                 <MessageCircle className="w-4 h-4 mr-2" />

@@ -6,7 +6,7 @@ export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
 // Use environment variable or fallback to hardcoded repo
-const REPO_URL = 'https://api.github.com/repos/chigili/ai-portfolio';
+const REPO_URL = 'https://api.github.com/repos/thaohh69/thao-portfolio';
 
 export const GET = async (request: Request) => {
   const clientIP = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||

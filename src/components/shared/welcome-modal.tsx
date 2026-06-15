@@ -34,7 +34,7 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
         src="/logo-personal.svg"
         width={100}
         height={100}
-        alt="Sai Krishna Chaitanya Chigili Logo"
+        alt="Thao Ho Logo"
         className="w-6 md:w-8"
       />
       <span className="sr-only">About Portfolio</span>
