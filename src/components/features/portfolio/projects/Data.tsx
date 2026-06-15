@@ -379,15 +379,13 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
 // Personal projects content array - showcasing side projects and passion work
 const PERSONAL_PROJECT_CONTENT = [
   {
-    title: 'Realtime Ecommerce Analytics',
+    title: 'Binance Real-Time Data Lakehouse',
     description:
-      'A complete end-to-end real-time analytics pipeline for e-commerce data, enabling organizations to monitor and analyze customer behavior as it happens. Built with modern streaming technologies, this platform processes events in real-time and provides actionable insights through interactive dashboards.',
+      'A production-style local Data Engineering project that ingests live cryptocurrency trade data from Binance WebSocket API, streams it through Kafka, processes it with Apache Spark using a Medallion Architecture, stores data in MinIO and PostgreSQL, builds analytical marts with dbt, orchestrates the workflow with Apache Airflow, and visualizes business-ready insights in Metabase.',
     techStack: [
       'Apache Kafka',
-      'ksqlDB',
-      'Avro Schemas',
-      'Confluent Schema Registry',
       'Kafka Connect',
+      'Airflow',
       'PostgreSQL',
       'Grafana',
       'Docker',
@@ -397,11 +395,11 @@ const PERSONAL_PROJECT_CONTENT = [
     links: [
       {
         name: 'GitHub Repository',
-        url: 'https://github.com/thaohh69/thao-portfolio',
+        url: 'https://github.com/thaohh69/Binance_API_DataLakeHouse',
       },
       {
         name: 'Architecture Diagram',
-        url: 'https://github.com/thaohh69/thao-portfolio/blob/main/docs/architecture.md',
+        url: 'https://github.com/thaohh69/Binance_API_DataLakeHouse/blob/main/architecture.png',
       },
     ],
     keyFeatures: [
@@ -469,8 +467,8 @@ export const data = [
 export const personalProjectsData = [
   {
     category: 'Personal Project',
-    title: 'Realtime Ecommerce Analytics',
+    title: 'Binance Real-Time Data Lakehouse',
     src: '/projects/realtime-ecommerce-analytics.jpg',
-    content: <ProjectContent project={{ title: 'Realtime Ecommerce Analytics' }} />,
+    content: <ProjectContent project={{ title: 'Binance Real-Time Data Lakehouse' }} />,
   },
 ];
