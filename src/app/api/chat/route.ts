@@ -290,7 +290,7 @@ export async function POST(req: Request) {
     console.log('[CHAT-API] Initiating Claude API request...');
     
     const result = streamText({
-      model: anthropic('claude-sonnet-4-20250514'),
+      model: anthropic('claude-sonnet-4-5'),
       messages,
       tools,
     });
